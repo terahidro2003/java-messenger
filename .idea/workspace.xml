@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="messenger-app:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="804780fa-d908-4eb7-8091-a7333e3dcfa8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/CRUD/CRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/CRUD/CRUDOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/CRUD/CreateTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/CRUD/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/CRUD/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/CRUD/Select.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/Table/Column.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/Table/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/lang/annotations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-j-8.0.31.jar" afterDir="false" />
+    <list default="true" id="804780fa-d908-4eb7-8091-a7333e3dcfa8" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/messenger_app_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/MigLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/LoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/MainWindow.jfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/SignupFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/JDBCConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/message/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/message/MessagesListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/messenger-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/CRUD/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/CRUD/CRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/CRUD/CRUDOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/CRUD/CRUDOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/CRUD/CreateTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/CRUD/Delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/CRUD/Insert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/CRUD/Select.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/Table/Column.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Table/Column.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/Table/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Table/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mysql-connector-j-8.0.31.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.31.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +57,37 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1a679bbb-8df7-4ce3-b90c-a74c3331ee5d" />
+        <option name="url" value="https://github.com/terahidro2003/java-messenger.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2MspS8vFx6PUW9avkngkehc8s3W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,6 +110,11 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -79,6 +127,24 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginFrame" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.LoginFrame" />
+      <module name="messenger-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -89,8 +155,24 @@
       <option name="presentableId" value="Default" />
       <updated>1678566141831</updated>
       <workItem from="1678566143072" duration="20752000" />
-      <workItem from="1678642192423" duration="558000" />
+      <workItem from="1678642192423" duration="10203000" />
+      <workItem from="1678694978848" duration="5045000" />
+      <workItem from="1678700484202" duration="9726000" />
+      <workItem from="1678716888946" duration="3470000" />
+      <workItem from="1678726481826" duration="2344000" />
+      <workItem from="1678792046778" duration="7302000" />
+      <workItem from="1678880622881" duration="24314000" />
+      <workItem from="1678991584882" duration="667000" />
+      <workItem from="1679053828840" duration="1078000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1678642778856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678642778856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,19 +199,43 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/database/CRUD/Insert.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/database/CRUD/CRUDOperation.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/database/CRUD/CRUDOperation.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GUI/MainWindow.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="database.Table.Column" memberName="Type" />
+        <PinnedItemInfo parentTag="database.Table.Column" memberName="values" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

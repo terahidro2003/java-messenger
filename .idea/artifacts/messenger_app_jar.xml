@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="messenger-app:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/messenger_app_jar</output-path>
+    <root id="root">
+      <element id="archive" name="messenger-app.jar">
+        <element id="module-output" name="messenger-app" />
+      </element>
+      <element id="library" level="project" name="MigLayout" />
+      <element id="library" level="project" name="mysql-connector-j-8.0.31" />
+      <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar" />
+    </root>
+  </artifact>
+</component>

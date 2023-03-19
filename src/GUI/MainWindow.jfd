@@ -1,0 +1,50 @@
+JFDML JFormDesigner: "8.0.3.0.246" Java: "17.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:25:p, par l:::p {seq {comp label1:::p::p, space u:::p, comp usernameLabel:::p::p, space s:::p, comp label2:::p::p, space s:::p, comp usersBox:::p:146:p, space :::x, comp logoutBtn:::p::p}, comp scrollPane1:::p:561:p, seq {comp textField1:::p:461:p, space :::p, comp sendMessageBtn:::p:94:p}}, space ::42:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, par b {comp label1::b:p::p, comp usernameLabel::b:p::p, comp logoutBtn::b:p::p, comp label2::b:p::p, comp usersBox::b:p::p}, space :p:5:p, comp scrollPane1:::p:202:p, space u:::p, par b {comp textField1::b:p::p, comp sendMessageBtn::b:p::p}, space ::9:x}}"
+		} ) {
+			name: "this"
+			"title": "Messenger App"
+			"type": enum java.awt.Window$Type UTILITY
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "messagesArea"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "sendMessageBtn"
+				"text": "Send"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Logged in as:"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "usernameLabel"
+				"text": "[Username]"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "logoutBtn"
+				"text": "Logout"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Chat with:"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "usersBox"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 630, 325 )
+		} )
+	}
+}

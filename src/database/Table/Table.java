@@ -1,27 +1,25 @@
 package database.Table;
 
-import database.CRUD.CRUDOperation;
-import database.CRUD.Insert;
-import database.CRUD.Select;
-import org.jetbrains.annotations.NotNull;
+import database.DatabaseConnection;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Table{
+public class Table extends DatabaseConnection {
     public List<Column> Columns = new ArrayList<>();
     public String name;
     public int rowCount = 0;
 
-    public Table()
-    {
+    public Table() throws Exception {
+        super();
         System.out.println("Please provide table name with getters and setters.");
         this.name = "unidentifiedTable";
     }
 
-    public Table(String name)
+    public Table(String name) throws Exception
     {
+        super();
         this.name = name;
     }
 
@@ -149,53 +147,52 @@ public class Table{
         rowCount = 0;
     }
 
-    private void mapDBtoTable(@NotNull CRUDOperation op)
-    {
-        this.Columns = op.Columns;
-        this.rowCount = op.rowCount;
-    }
+//    private void mapDBtoTable(@NotNull CRUDOperation op)
+//    {
+//        this.Columns = op.Columns;
+//        this.rowCount = op.rowCount;
+//    }
 
-    private Insert insertCRUDop() throws Exception{
-        Insert insert = new Insert(name);
-        insert.setTable(this);
-        return insert;
-    }
+//    private Insert insertCRUDop() throws Exception{
+//        Insert insert = new Insert(name);
+//        insert.setTable(this);
+//        return insert;
+//    }
 
-    public void insert(int rowIndex) throws Exception
-    {
-        Insert insert = insertCRUDop();
-        insert.insert(rowIndex);
-    }
+//    public void insert(int rowIndex) throws Exception
+//    {
+//        Insert insert = insertCRUDop();
+//        insert.insert(rowIndex);
+//    }
 
-    public void save() throws Exception
-    {
-        Insert insert = insertCRUDop();
-        insert.InsertAllRows();
-        System.out.println("LLL:" + insert.Columns.get(0).getValue(0));
-    }
-
-    private Select selectCRUDOp() throws Exception {
-        Select select = new Select(name);
-        select.setTable(this);
-        return select;
-    }
-
-    public void selectAll() throws Exception {
-        Select select = selectCRUDOp();
-        select.SelectAll();
-        mapDBtoTable(select);
-    }
-
-    public void select(String condition) throws Exception
-    {
-        Select select = selectCRUDOp();
-        select.Select(condition);
-        mapDBtoTable(select);
-    }
-
-    public void selectId(int id) throws Exception{
-        Select select = selectCRUDOp();
-        select.SelectByID(id);
-        mapDBtoTable(select);
-    }
+//    public void save() throws Exception
+//    {
+//        Insert insert = insertCRUDop();
+//        insert.InsertAllRows();
+//    }
+//
+//    private Select selectCRUDOp() throws Exception {
+//        Select select = new Select(name);
+//        select.setTable(this);
+//        return select;
+//    }
+//
+//    public void selectAll() throws Exception {
+//        Select select = selectCRUDOp();
+//        select.SelectAll();
+//        mapDBtoTable(select);
+//    }
+//
+//    public void select(String condition) throws Exception
+//    {
+//        Select select = selectCRUDOp();
+//        select.Select(condition);
+//        mapDBtoTable(select);
+//    }
+//
+//    public void selectId(int id) throws Exception{
+//        Select select = selectCRUDOp();
+//        select.SelectByID(id);
+//        mapDBtoTable(select);
+//    }
 }

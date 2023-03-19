@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: GUI.LoginFrame
+Class-Path: miglayout-swing.jar miglayout-core.jar mysql-connector-j-8.0
+ .31.jar annotations-23.0.0.jar
+

@@ -8,7 +8,7 @@ public class Column{
     private String Name;
     public boolean required = false;
     //private int index;
-    public List<String> values = new ArrayList<>();
+    public List<String> values = new ArrayList<>(); //keeps values of that column
 
     public boolean isRequired()
     {
@@ -32,7 +32,7 @@ public class Column{
 
     public Column()
     {
-        Type = "text";
+        Type = "text"; //default column type
     }
 
     public String getValue(int index)
@@ -53,6 +53,14 @@ public class Column{
         Name = n;
     }
 
+    public Column(String t, String n, boolean required)
+    {
+        Type = t;
+        Name = n;
+        this.required = required;
+    }
+
+    // Deletes all column's values
     public void resetValues()
     {
         this.values = new ArrayList<>();
