@@ -1,5 +1,5 @@
 # java-messenger
-Java Coding Challange Project as an assesment on behalf of Software Development module in LU Leipzig.
+Java Coding Challange Project as an assesment on behalf of Software Development module in LU Leipzig by Juozas Skarbalius (first-year student)
 Very basic messaging application made with native Java together with JavaJDBC (DB driver mysql) and Swing libraries. 
 
 KEEP IN MIND that you have to:
